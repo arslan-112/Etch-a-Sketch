@@ -37,7 +37,25 @@ body{
 .square:hover {
     background-color: turquoise;
 }
+#Buttons{
+    display: flex;
+    justify-content: center;
+    
+
+}
 #resetButton{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 14px;
+    border: 2px solid #ccc; 
+    background-color: cadetblue;
+    font-family: monospace;
+    width: 120px;
+    height: 50px;
+}
+#numSquares{
     margin: 20px;
     padding: 10px 20px;
     font-size: 24px;
